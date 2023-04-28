@@ -1,0 +1,39 @@
+*{
+    height:200px;
+    width:200px;
+}
+
+html{
+    font-size: 60%;
+}
+
+
+@mixin flexprop($pair){
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: $pair;
+
+}
+
+$bg-color:pink;
+
+.main_header{
+   @include flexprop(23px);
+    height:12rem;
+    width:12rem;
+    background-color:$bg-color;
+
+    h1{
+        color: aqua;
+        font-size:25px;
+    }
+
+    h1:hover{
+        color:red;
+    }
+    
+    p{
+        font-size: 20px;;
+    }
+}

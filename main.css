@@ -1,0 +1,28 @@
+* {
+  height: 200px;
+  width: 200px;
+}
+
+html {
+  font-size: 60%;
+}
+
+.main_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 23px;
+  height: 12rem;
+  width: 12rem;
+  background-color: pink;
+}
+.main_header h1 {
+  color: aqua;
+  font-size: 25px;
+}
+.main_header h1:hover {
+  color: red;
+}
+.main_header p {
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */
